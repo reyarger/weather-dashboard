@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <h1 class="text-white">Weather Dashboard</h1>
+          </nav>
+          <div class="container-fluid mb-4" id="container">
+                <div class="col-4 mt-4 search" id="left-side">
+                    <form id="search-form" method="POST">
+                      <label for="search-input">Search for a City:</label>
+                      <div>
+                      <input type="text" 
+                             placeholder="Search for a City:" 
+                             id="search-input" />
+                             <button id="search-btn" class="btn btn-primary fa fa-search"></button>
+                    </div>
+                    </form>
+                    <ul id="search-list"></ul>
+             </div>
+                  <div class="col-8 mt-4" id="current-weather">
+                    <h1 class="city"></h1>
+                    <div class="temp"></div>
+                    <div class="humidity"></div>
+                    <div class="wind"></div>
+                    <div class="uv"></div>
+                </div>
+                <div class="col-8 mt-4 align-self-end" id="forecast">
+                    Dump weather forecast here
+                </div>
+          </div>
+    
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
