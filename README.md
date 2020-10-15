@@ -17,7 +17,7 @@ In this project, I worked with ajax api calls and jquery in order to generate a 
 ## Installation
 
 Once the user visits https://reyarger.github.io/password-generator/ and enters in a city into the search bar, current weather and the weekly forecast will appear as detailed in the image below.
-<img width="985" alt="weather dashboard image" src="![image](https://user-images.githubusercontent.com/69877380/96074441-af9a8000-0e76-11eb-88aa-d554240876d1.png)">
+<img width="985" alt="weather dashboard image" src="https://user-images.githubusercontent.com/69877380/96074994-0d7b9780-0e78-11eb-9fdb-8e371fbdd1b8.png">
 
 
 
