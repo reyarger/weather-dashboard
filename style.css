@@ -1,0 +1,32 @@
+.navbar{
+    text-align: center;
+}
+#left-side{
+    margin-top:0%;
+    padding-top:0%;
+    padding-left:0%;
+    margin-bottom: 20%;
+    background-color: rgb(207, 202, 207);
+    height:5000%;
+    float: left;
+}
+
+#current-weather{
+    float: left;
+    vertical-align: text-top;
+    border-style:solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+#forecast{
+    float: right;
+    padding-bottom:10%;
+}
+.search-btn{
+    padding: 20%;
+}
+.card {
+    float:left;
+    margin:1%;
+    height:250px;
+}
